@@ -222,7 +222,53 @@ main section {
     height: 1px;
     background: #D1D1D1;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 0;
+}
+
+/* footer styles */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 113px;
+    gap: 117px;
+}
+
+.footer-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.footer-column {
+    width: 50%;
+}
+.social-links>a{
+    margin-right: 24px;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 461px;
+    margin-top: 0;
 }
